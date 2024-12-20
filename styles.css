@@ -1,0 +1,163 @@
+.title {
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Cinzel decorative"    
+}
+body{
+background: hsla(245, 100%, 24%, 1);
+
+background: linear-gradient(90deg, hsla(245, 100%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(245, 100%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(245, 100%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0A007B", endColorstr="#121b67", GradientType=1 );
+}
+li{
+    display: inline-block;
+    margin: 0 10px;
+}
+#footer{
+    position: relative;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+}
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.della-respira-regular {
+  font-family: "Della Respira", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.hometitle{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: "cinzel decorative", serif;
+    font-weight: 900;
+    letter-spacing: -3px;
+    font-size: 40px;
+    color: #ffc300;
+    text-shadow: 1px 2px 2px black;
+}
+.card, .family{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+ 
+    margin-bottom: 40px;
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    border: solid .05em white;
+
+    
+}
+.card:hover{
+    box-shadow: 0 20px 36px 0 #9daa0c;
+}
+.container, .family-text{
+    padding: 2px 16px;
+    display: flexbox;
+    text-align: center;
+    color: white;
+    font-family: "della respira", sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    min-width: 100%;
+}
+.blocklist{
+    position: relative;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 15px
+    
+}
+.cardtext, .family-text{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.linklist{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footlinks{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mountains-of-christmas-regular {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mountains-of-christmas-bold {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+a{
+    font-family: "Della Respira", serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffc300;
+        text-shadow: 1px 2px 3px white;;
+}
+.head{
+    text-align: center;
+    font-family: "cinzel decorative", serif;
+    letter-spacing: 1px;
+    color: #ffc300;
+    font-weight: 900px;
+}
+
+.linklist a{
+    color: white;
+    font-size: 18px
+}
+.linklist a:hover{
+    text-shadow: 1px 1px 2px gold, 0 0 1em gold, 0 0 1em Gold;
+}
+#footer a{
+    color: white;
+    font-size: 18px
+}
+#footer a:hover{
+    text-shadow: 1px 1px 2px gold, 0 0 1em gold, 0 0 1em Gold;
+}
